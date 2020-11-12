@@ -1,9 +1,9 @@
 class SantaTool
 
-	def generate_match(users)
-		#users.combination(2).to_a
-		users.shuffle.combination(2).uniq.to_a
-	end
+  def generate_match(users)
+    #users.combination(2).to_a
+    users.shuffle.combination(2).uniq.to_a
+  end
 
 end
 

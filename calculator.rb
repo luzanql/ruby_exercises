@@ -1,34 +1,34 @@
 class Calculator
-	PI = 3.14
+  PI = 3.14
 
-	def sum(n1, n2)
-		n1 + n2
-	end
+  def sum(n1, n2)
+    n1 + n2
+  end
 
-	def minus(n1, n2)
-		n1-n2
-	end
+  def minus(n1, n2)
+    n1-n2
+  end
 
-	def multiply(n1, n2)
-		n1 * n2
-	end
+  def multiply(n1, n2)
+    n1 * n2
+  end
 
-	def divide(n1, n2)
-		if n2 == 0
-			return 'error'
-		else 
-			return n1 / n2
-		end
-	end
+  def divide(n1, n2)
+    if n2 == 0
+      return 'error'
+    else 
+      return n1 / n2
+    end
+  end
 
-	def power(n1, n2)
-		n1 ** n2
-	end
+  def power(n1, n2)
+    n1 ** n2
+  end
 
 
-	def get_radius_circle(radius)
-		PI * radius**2
-	end
+  def get_radius_circle(radius)
+    PI * radius**2
+  end
 
 
 end
