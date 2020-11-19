@@ -6,7 +6,7 @@ class Calculator
   end
 
   def minus(n1, n2)
-    n1-n2
+    n1 - n2
   end
 
   def multiply(n1, n2)
@@ -14,11 +14,7 @@ class Calculator
   end
 
   def divide(n1, n2)
-    if n2 == 0
-      return 'error'
-    else 
-      return n1 / n2
-    end
+    if n2 == 0 ? return 'error' : return n1 / n2 end
   end
 
   def power(n1, n2)
@@ -26,8 +22,8 @@ class Calculator
   end
 
 
-  def get_radius_circle(radius)
-    PI * radius**2
+  def radius_circle(radius)
+    PI * radius ** 2
   end
 
 
@@ -40,5 +36,5 @@ puts calculator.multiply(8,855)
 puts calculator.divide(8,2)
 puts calculator.divide(3,0)
 puts calculator.power(2, 3)
-puts calculator.get_radius_circle(5)
+puts calculator.radius_circle(5)
 
